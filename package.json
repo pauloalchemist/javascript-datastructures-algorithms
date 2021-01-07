@@ -1,0 +1,19 @@
+{
+  "name": "javascript_datastructures_algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*/*.js"
+  },
+  "keywords": [],
+  "author": "Paulo Giovani",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "husky": "^4.3.7",
+    "lint-staged": "^10.5.3",
+    "mocha": "^8.2.1",
+    "standard": "^16.0.3"
+  }
+}
