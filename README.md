@@ -2,4 +2,4 @@
 
 # Meus estudos com estruturas de dados e algoritmos em JavaScript.
 
-<p>Utilizo nesse processo livros como o <span style="color:orange">JavaScript Data Structures and Algorithms de Sammie Bae</span> e </p>
+Utilizo nesse processo livros como o **JavaScript Data Structures and Algorithms** de _Sammie Bae_ e **Learning JavaScript Data Structures and Algorithms** de _Loaine Groner_.
