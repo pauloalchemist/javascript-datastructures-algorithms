@@ -21,3 +21,9 @@ console.log('Array com remoção do primeiro item usando shift: ', numbers)
 
 numbers.splice(5, 3)
 console.log('Array com remoção a partir da posição [5], removendo três itens, usando splice: ', numbers)
+
+numbers.splice(5, 0, 3, 4, 5)
+console.log('Array com inserção a partir da posição [5] dos três itens excluidos usando splice: ', numbers)
+
+numbers.splice(5, 3, 3, 4, 5)
+console.log('Array com remoção e inserção a partir da posição [5] de 3, 4, 5 usando splice: ', numbers)
