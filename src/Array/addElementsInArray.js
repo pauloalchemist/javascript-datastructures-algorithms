@@ -14,3 +14,7 @@ Array.prototype.insertFirstPosition = function (value) {
 numbers.insertFirstPosition(-1)
 
 console.log('Array com inserção de -1 na primeira posição usando prototype: ', numbers)
+
+numbers.unshift(-2, -3)
+
+console.log('Array com inserção de -1 na primeira posição usando unshift: ', numbers)
