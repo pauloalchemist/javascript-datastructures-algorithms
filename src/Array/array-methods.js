@@ -27,3 +27,8 @@ console.log(evenNumbers)
 // reduce
 const myReduce = arrayNumbers.reduce((previous, current) => previous + current)
 console.log(myReduce)
+
+// iterando usando for...of
+for (const n of arrayNumbers) {
+  console.log(n % 2 === 0 ? 'even' : 'odd')
+}
