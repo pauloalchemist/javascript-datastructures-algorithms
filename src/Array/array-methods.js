@@ -17,3 +17,9 @@ console.log(checkDividerTwoWithSome)
 
 // forEach iterar o array completo independente do resultado
 arrayNumbers.forEach(x => console.log(x % 2 === 0))
+
+// map armazena o resultado e filter retorna os elementos conforme a função passada. Amboas retornam novos arrays.
+const myMap = arrayNumbers.map(isEven)
+console.log(myMap)
+const evenNumbers = arrayNumbers.filter(isEven)
+console.log(evenNumbers)
