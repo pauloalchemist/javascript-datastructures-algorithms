@@ -14,3 +14,6 @@ console.log(checkDividerTwoEWithEvery)
 // some (itera cada elemento do array até que a função passada retorne verdadeiro)
 const checkDividerTwoWithSome = arrayNumbers.some(isEven)
 console.log(checkDividerTwoWithSome)
+
+// forEach iterar o array completo independente do resultado
+arrayNumbers.forEach(x => console.log(x % 2 === 0))
