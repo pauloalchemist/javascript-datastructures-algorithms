@@ -5,3 +5,21 @@ console.log(reverseNumbers)
 
 const sortNumbers = reverseNumbers.sort((a, b) => a - b)
 console.log(sortNumbers)
+
+// custom sorting
+const friends = [
+  { name: 'Flash', age: 40 },
+  { name: 'Spider-man', age: 37 },
+  { name: 'Hulk', age: 41 }
+]
+
+function comparePerson (a, b) {
+  if (a.age < b.age) {
+    return -1
+  }
+  if (a.age > b.age) {
+    return 0
+  }
+}
+
+console.log(friends.sort(comparePerson))
