@@ -42,3 +42,19 @@ console.log(numbers.lastIndexOf(100))
 console.log(numbers.includes(15))
 console.log(numbers.includes(30))
 console.log(numbers.includes(4, 5))
+
+// toStrind e join
+console.log(numbers.toString())
+console.log(numbers.join('-'))
+
+// typedArray class
+const length = 5
+const int16 = new Int16Array(length)
+
+const array16 = []
+array16.length = length
+
+for (let i = 0; i < length; i++) {
+  int16[i] = i + 1
+}
+console.log(int16)
