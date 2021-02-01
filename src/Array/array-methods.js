@@ -23,3 +23,7 @@ const myMap = arrayNumbers.map(isEven)
 console.log(myMap)
 const evenNumbers = arrayNumbers.filter(isEven)
 console.log(evenNumbers)
+
+// reduce
+const myReduce = arrayNumbers.reduce((previous, current) => previous + current)
+console.log(myReduce)
