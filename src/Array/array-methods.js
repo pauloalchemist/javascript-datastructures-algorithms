@@ -38,8 +38,26 @@ for (const n of iterator) {
   console.log(n)
 }
 
-// entries
+// entries: itera a chave e valor de cada elemento no array
 const aEntries = arrayNumbers.entries()
 for (const m of aEntries) {
   console.log(m)
 }
+
+// keys: itera as chaves de cada valor
+const aKeys = arrayNumbers.keys()
+for (const k of aKeys) {
+  console.log(k)
+}
+
+// values: itera os valores de cada elemento no array
+const aValues = arrayNumbers.values()
+for (const v of aValues) {
+  console.log(v)
+}
+
+// from Method
+const numbers2 = Array.from(arrayNumbers)
+console.log(numbers2)
+const evens = Array.from(arrayNumbers, x => (x % 2 === 0))
+console.log(evens)
