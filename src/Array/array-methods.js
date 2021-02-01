@@ -37,3 +37,9 @@ const iterator = arrayNumbers[Symbol.iterator]()
 for (const n of iterator) {
   console.log(n)
 }
+
+// entries
+const aEntries = arrayNumbers.entries()
+for (const m of aEntries) {
+  console.log(m)
+}
