@@ -24,3 +24,8 @@ function comparePerson (a, b) {
 }
 
 console.log(friends.sort(comparePerson))
+
+// sorting strings
+const names = ['thomas', 'Thomas', 'paulo', 'Paulo', 'Vanessa', 'vanessa']
+const sortNames = names.sort((a, b) => a.localeCompare(b))
+console.log(sortNames)
