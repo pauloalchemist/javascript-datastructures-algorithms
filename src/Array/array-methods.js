@@ -32,3 +32,8 @@ console.log(myReduce)
 for (const n of arrayNumbers) {
   console.log(n % 2 === 0 ? 'even' : 'odd')
 }
+
+const iterator = arrayNumbers[Symbol.iterator]()
+for (const n of iterator) {
+  console.log(n)
+}
