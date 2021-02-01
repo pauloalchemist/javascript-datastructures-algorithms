@@ -41,3 +41,4 @@ console.log(numbers.lastIndexOf(100))
 // include
 console.log(numbers.includes(15))
 console.log(numbers.includes(30))
+console.log(numbers.includes(4, 5))
