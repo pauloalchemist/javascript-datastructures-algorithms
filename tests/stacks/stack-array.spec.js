@@ -21,7 +21,18 @@ describe('StackArray', () => {
     expect(stack.size()).to.equal(2)
     stack.push(3)
     expect(stack.size()).to.equal(3)
-    console.log(stack)
+
     expect(stack.isEmpty()).to.equal(false)
+  })
+
+  it('pops elements and implements LIFO logic', () => {
+    stack.push(1)
+    stack.push(2)
+    stack.push(3)
+
+    expect(stack.pop()).to.equal(stack[stack.peek()])
+    expect(stack.pop()).to.equal(stack[stack.peek()])
+    expect(stack.pop()).to.equal(stack[stack.peek()])
+    expect(stack.pop()).to.equal(undefined)
   })
 })
