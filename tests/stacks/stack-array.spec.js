@@ -35,4 +35,16 @@ describe('StackArray', () => {
     expect(stack.pop()).to.equal(stack[stack.peek()])
     expect(stack.pop()).to.equal(undefined)
   })
+
+  it('retuns the correct size', () => {
+    stack.push(1)
+    stack.push(2)
+    stack.push(3)
+
+    expect(stack.size()).to.equal(3)
+
+    stack.clear()
+    expect(stack.isEmpty()).to.equal(true)
+    expect(stack.size()).to.equal(0)
+  })
 })
