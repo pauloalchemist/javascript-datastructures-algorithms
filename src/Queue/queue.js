@@ -10,9 +10,24 @@ class Queue {
     this.count++
   }
 
-  dequeue () {}
+  dequeue () {
+    if (this.isEmpty()) {
+      return undefined
+    }
 
-  peek () {}
+    const result = this.items[this.lowestCount]
+    delete this.items[this.lowestCount]
+    this.lowestCount++
+    return result
+  }
+
+  peek () {
+    if (this.isEmpty()) {
+      return undefined
+    }
+
+    return this.items[this.lowestCount]
+  }
 
   isEmpty () {}
 
