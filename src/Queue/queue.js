@@ -29,7 +29,9 @@ class Queue {
     return this.items[this.lowestCount]
   }
 
-  isEmpty () {}
+  isEmpty () {
+    return this.count - this.lowestCount === 0
+  }
 
   size () {}
 }
