@@ -27,7 +27,7 @@ describe('teste dos métodos para queue.js', () => {
     expect(queue.isEmpty()).to.equal(false)
   })
 
-  test('Confirmar que a saída da fila siga o modelo LIFO', () => {
+  test('Confirmar que a saída da fila siga o modelo FIFO', () => {
     const saidaFila = queue.dequeue()
     // console.log(saidaFila)
     expect(saidaFila).to.equal('Paulo')
