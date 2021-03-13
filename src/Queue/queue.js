@@ -33,7 +33,9 @@ class Queue {
     return this.count - this.lowestCount === 0
   }
 
-  size () {}
+  size () {
+    return this.count - this.lowestCount
+  }
 }
 
 export default Queue
